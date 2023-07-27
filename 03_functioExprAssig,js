@@ -1,0 +1,72 @@
+const TheSquareof= function (num) {
+    return num * num;
+  };
+  console.log("-----------------------------STEP 1---------------------------------");
+  console.log("The Square of 5 is:",TheSquareof(5)); 
+  console.log("The Square of 6 is:",TheSquareof(6)); 
+  console.log("The Square of 25 is:",TheSquareof(25)); 
+  console.log("The Square of 100 is:",TheSquareof(100)); 
+  console.log("The Square of 67.89 is:",TheSquareof(67.89)); 
+  console.log("The Square of 59 is:",TheSquareof(59)); 
+  
+  const yarlableName = "function"
+    
+  
+  
+
+  console.log("------------------------------STEP 2---------------------------------");
+  
+  console.log("Type of function is : " ,yarlableName);
+  
+  const getRectangleArea = function (length, width) {
+    return length * width;
+  };
+  console.log("------------------------------STEP 3---------------------------------");
+  console.log("The length of rectangle : 499 and width of rectangle : 917"); 
+  console.log("Area of rectangle :",getRectangleArea(499, 917));
+  console.log("------------------------------STEP 4---------------------------------");
+  const swapyalues = function (a, b) {
+    
+    console.log("Before swapping values are: a =", a, "b =", b);
+    [a, b] = [b, a];
+    console.log("After swapping values are: a =", a, "b =", b);
+  };
+  swapyalues("Mahi", "Raina");
+  swapyalues(55, 77);
+  
+  const stringOperations = function (str) {
+    // A. Find the total characters available in the string
+    const totalCharacters = str.length;
+  
+    // B. Find the character at index 6
+    const charAtIndex6 = str.charAt(6);
+  
+    // C. Find the character at index 11
+    const charAtIndex11 = str.charAt(11);
+  
+    // D. Find the last character using the length property
+    const lastCharacter = str.charAt(str.length - 1);
+  
+    // E. Find the very first character from the given string
+    const firstCharacter = str.charAt(0);
+  
+    // F. Find the third last character from the given string
+    const thirdLastCharacter = str.charAt(str.length - 3);
+  
+    // G. Find the total number of words in the given string and calculate the square of it
+    const words = str.split(" ");
+    const totalWords = words.length;
+    const squareOfTotalWords = totalWords * totalWords;
+
+    console.log("------------------------------STEP 5---------------------------------");
+    console.log(" Total characters available in the string :", totalCharacters);
+    console.log(" Character at index 6 is:", charAtIndex6);
+    console.log(" Character at index 11 is:", charAtIndex11);
+    console.log(" character at Last is:", lastCharacter);
+    console.log(" character at First is:", firstCharacter);
+    console.log(" character at Third last is:", thirdLastCharacter);
+    console.log(" Total  number of words is:", squareOfTotalWords);
+  };
+  stringOperations("JS the most popular language of the internet");
+  
+  
