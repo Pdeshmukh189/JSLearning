@@ -33,7 +33,7 @@ console.log(result); // Output: 3
 
 
 // Implicit conversion of the result of the 'console.log' statement (which is 'undefined') to NaN, then added to '4'
-result = 4 + true;
+result = 4 + console.log (true);
 console.log("true is boolean type and it is implicity to number type here true means 1");
 console.log(result); // Output: 5
 
@@ -75,7 +75,7 @@ console.log(result); // Output: 2
 
 
 
-console.log("________________________some other few interesting facts using '==' operator__________________--");
+console.log("___________________________some other few interesting facts using '==' operator__________________--");
 
 console.log(0 == "");         // Output: true
 
